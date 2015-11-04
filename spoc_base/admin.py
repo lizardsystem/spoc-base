@@ -7,5 +7,7 @@ from django.contrib import admin
 
 from spoc_base import models
 
-
-# admin.site.register(models.TODO)
+admin.site.register(models.ScadaLocation)
+admin.site.register(models.Parameter)
+admin.site.register(models.ScadaSource)
+admin.site.register(models.Header)

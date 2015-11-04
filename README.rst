@@ -2,8 +2,9 @@ spoc-base
 ==========================================
 
 Introduction
+------------
+Base nens_djangoapp contains common functionalities for SPOC.
 
-Usage, etc.
 
 
 Post-nensskel setup TODO

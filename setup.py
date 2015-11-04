@@ -12,7 +12,6 @@ install_requires = [
     'Django',
     'django-extensions',
     'django-nose',
-    'lizard-ui >= 4.0b5',
     ],
 
 tests_require = [
@@ -23,15 +22,15 @@ tests_require = [
 
 setup(name='spoc-base',
       version=version,
-      description="TODO",
+      description="Base nens_djangoapp contains common functionalities for SPOC.",
       long_description=long_description,
       # Get strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=['Programming Language :: Python',
                    'Framework :: Django',
                    ],
       keywords=[],
-      author='TODO',
-      author_email='TODO@nelen-schuurmans.nl',
+      author='Alexandr Seleznev',
+      author_email='alexandr.seleznev@nelen-schuurmans.nl',
       url='',
       license='GPL',
       packages=['spoc_base'],
