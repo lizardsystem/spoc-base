@@ -1,0 +1,8 @@
+[main]
+host = https://translations.lizard.net
+type = PO
+
+[nens.spoc-base]
+file_filter = spoc_base/locale/<lang>/LC_MESSAGES/django.po
+source_file = spoc_base/locale/en/LC_MESSAGES/django.po
+source_lang = en
